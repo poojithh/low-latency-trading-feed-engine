@@ -10,8 +10,9 @@ add_executable(
     trading_engine
 
     src/main.cpp
-    src/matching_engine.cpp
     src/logger.cpp
+    src/matching_engine.cpp
     src/websocket_client.cpp
     src/lockfree_queue.cpp
+    src/config_reader.cpp
 )
