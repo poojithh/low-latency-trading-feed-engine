@@ -1,4 +1,5 @@
 build/
-logs/
+venv/
+.vs/
+*.o
 *.exe
-*.csv
