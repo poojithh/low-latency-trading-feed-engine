@@ -13,7 +13,8 @@ add_executable(
 
     src/main.cpp
     src/logger.cpp
-    src/config_reader.cpp
-    src/lockfree_queue.cpp
     src/matching_engine.cpp
+    src/websocket_client.cpp
+    src/lockfree_queue.cpp
+    src/config_reader.cpp
 )

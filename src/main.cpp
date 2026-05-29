@@ -52,11 +52,9 @@ void producer() {
 
         order.order_id = i;
 
-        order.price =
-            trade.price;
+        order.price = trade.price;
 
-        order.quantity =
-            trade.quantity;
+        order.quantity = trade.quantity;
 
         if (i % 2 == 0) {
 

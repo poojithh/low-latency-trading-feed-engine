@@ -1,9 +1,6 @@
-// src/logger.cpp
-
 #include "../include/logger.h"
 
 #include <fstream>
-#include <iostream>
 #include <chrono>
 
 std::ofstream log_file;
@@ -35,14 +32,8 @@ void log_trade(
         ).count();
 
     log_file
-        << timestamp
-        << ","
-        << order_id
-        << ","
-        << price
-        << ","
-        << quantity
-        << "\n";
-
-    log_file.flush();
+        << timestamp << ","
+        << order_id << ","
+        << price << ","
+        << quantity << "\n";
 }
