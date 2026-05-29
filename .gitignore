@@ -1,4 +1,6 @@
+# .gitignore
+
 build/
-logs/
+venv/
+*.o
 *.exe
-*.csv
