@@ -129,11 +129,9 @@ python visualize.py
 
 This generates:
 
-```bash
+bash
 logs/trade_plot.png
-<img width="1000" height="500" alt="trade_plot" src="https://github.com/user-attachments/assets/6af66c2a-707e-45f8-9c77-c2698410127a" />
 
-```
 
 ---
 
